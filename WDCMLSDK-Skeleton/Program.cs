@@ -23,7 +23,7 @@ namespace WDCMLSDKDerived
 		private Log exampleLog = null;
 
 		// Data
-		private DocSet wsFunctions = null;
+		private DocSet win10Docs = null;
 		//private Dictionary<string, string> uniqueKeyMap = null;
 		//private Dictionary<string, List<string>> nonUniqueKeyMap = null;
 
@@ -35,7 +35,7 @@ namespace WDCMLSDKDerived
 		protected override void OnRun()
 		{
 			// Load a docset.
-			this.wsFunctions = DocSet.CreateDocSet(DocSetType.ReferenceOnly, Platform.Win32WindowsServerOnly, "WS Functions");
+			this.win10Docs = DocSet.CreateDocSet(DocSetType.ConceptualAndReference, Platform.UWPWindows10, "Win10 docs");
 
 			this.exampleLog = new Log()
 			{
