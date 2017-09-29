@@ -4,6 +4,7 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 ignoreme.txt
+ignoreme2.txt
 
 # User-specific files
 *.suo
